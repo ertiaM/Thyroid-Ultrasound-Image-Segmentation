@@ -1,0 +1,18 @@
+MODEL:
+  META_ARCHITECTURE: "fcn16s"
+
+  BACKBONE:
+    PRETRAINED: False
+
+  REFINEMENT:
+    NAME: 'fcn32s'
+    WEIGHT: "../ertiaM/checkpoints/train_fcn32s/fcn_model_13.pth"
+
+DATASETS:
+  ROOT: '../dataset/DDTI'
+
+SOLVER:
+  MAX_EPOCHS: 8
+  CHECKPOINT_PERIOD: 8
+
+OUTPUT_DIR: "../ertiaM/checkpoints/train_fcn16s"

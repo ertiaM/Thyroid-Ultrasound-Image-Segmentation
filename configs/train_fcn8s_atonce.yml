@@ -1,0 +1,19 @@
+
+MODEL:
+  META_ARCHITECTURE: "fcn8s"
+
+  BACKBONE:
+    PRETRAINED: True
+    WEIGHT: '../ertiaM/model_zoo/vgg16-397923af.pth'
+
+  REFINEMENT:
+    NAME: ''
+
+DATASETS:
+  ROOT: '../dataset'
+
+SOLVER:
+  MAX_EPOCHS: 13
+  CHECKPOINT_PERIOD: 13
+
+OUTPUT_DIR: "../ertiaM/checkpoints/train_fcn8s_atonce"

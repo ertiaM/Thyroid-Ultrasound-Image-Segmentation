@@ -39,8 +39,8 @@ parser.add_argument(
 ``` 
  
 ### Result
-The result is recorded by `tensorboard`, which is packed with the pretrained model in [ertiaM](https://pan.baidu.com/s/1wd__23_YazZT53ko6aMwUg?pwd=1989)
-The result from DDTI is shown below, where 80% are randomly selected for training, and the rest is for validation and testing. 
+The result is recorded by `tensorboard`, which is packed with the pretrained model and the trained network in [ertiaM](https://pan.baidu.com/s/1wd__23_YazZT53ko6aMwUg?pwd=1989). 
+The result from DDTI is shown below, where 80% are randomly selected for training, and the rest is for validation and testing.
 
 |Model| Epoch | Mean IU |
 |-|-|-|
